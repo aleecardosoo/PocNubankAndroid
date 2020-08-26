@@ -1,0 +1,68 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Name" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">8pt</item>
+    </style>
+
+    <style name="SmallTitle" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">#70BDC6</item>
+        <item name="android:textSize">8pt</item>
+    </style>
+
+    <style name="MainText" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">#70BDC6</item>
+        <item name="android:textSize">20pt</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="SmallBlack" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">7pt</item>
+    </style>
+
+    <style name="SmallGreen" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">#a8c959</item>
+        <item name="android:textSize">7pt</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CardText" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">4.5pt</item>de
+    </style>
+
+    <style name="Arrowdown" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">7pt</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:imageButtonStyle">@drawable/arrowdown</item>
+        <item name="android:background">#0080259C</item>
+    </style>
+
+    <style name="ValueInput" parent="Widget.AppCompat.EditText">
+        <item name="android:textSize">20pt</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">#0080259C</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BigWhite" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">10pt</item>
+    </style>
+
+    <style name="BigButton" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">7pt</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:background">#8f40a9</item>
+    </style>
+</resources>
